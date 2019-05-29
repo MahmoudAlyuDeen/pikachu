@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="@dimen/simple_padding_large">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="start"
+                android:lines="1"
+                android:text="@string/title_name"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="@dimen/text_size_secondary"/>
+
+            <TextView
+                android:id="@+id/dialog_pokemon_name_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="start"
+                android:lines="1"
+                android:text="@string/placeholder"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="@dimen/text_size_primary"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/dialog_pokemon_logo_image_view"
+            android:layout_width="@dimen/pokemon_sprite_size"
+            android:layout_height="@dimen/pokemon_sprite_size"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_vertical"
+            tools:ignore="ContentDescription"/>
+
+    </RelativeLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/simple_padding_large"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:lines="1"
+        android:text="@string/title_type"
+        android:textColor="@color/colorTextSecondary"
+        android:textSize="@dimen/text_size_secondary"/>
+
+    <TextView
+        android:id="@+id/dialog_pokemon_type_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:lines="1"
+        android:text="@string/placeholder"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="@dimen/text_size_primary"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/simple_padding_large"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:lines="1"
+        android:text="@string/title_height"
+        android:textColor="@color/colorTextSecondary"
+        android:textSize="@dimen/text_size_secondary"/>
+
+    <TextView
+        android:id="@+id/dialog_pokemon_height_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:lines="1"
+        android:text="@string/placeholder"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="@dimen/text_size_primary"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/simple_padding_large"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:lines="1"
+        android:text="@string/title_weight"
+        android:textColor="@color/colorTextSecondary"
+        android:textSize="@dimen/text_size_secondary"/>
+
+    <TextView
+        android:id="@+id/dialog_pokemon_weight_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:lines="1"
+        android:text="@string/placeholder"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="@dimen/text_size_primary"/>
+
+
+</LinearLayout>

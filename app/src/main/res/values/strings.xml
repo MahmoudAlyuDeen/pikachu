@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pepefute Pokemon</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="title_type">Type</string>
+    <string name="title_name">Name</string>
+    <string name="title_height">Height</string>
+    <string name="title_weight">Weight</string>
+</resources>
