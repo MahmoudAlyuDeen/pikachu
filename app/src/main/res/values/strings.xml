@@ -5,4 +5,5 @@
     <string name="title_name">Name</string>
     <string name="title_height">Height</string>
     <string name="title_weight">Weight</string>
+    <string name="title_activity_main">MainActivity</string>
 </resources>

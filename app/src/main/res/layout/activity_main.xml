@@ -30,13 +30,13 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
-                    android:layout_toStartOf="@id/home_pokemon_progress"
+                    android:layout_toStartOf="@id/homePokemonProgress"
                     android:text="@string/app_name"
                     android:textColor="@color/colorWhite"
                     android:textSize="@dimen/text_size_big"/>
 
                 <ProgressBar
-                    android:id="@+id/home_pokemon_progress"
+                    android:id="@+id/homePokemonProgress"
                     android:layout_width="@dimen/toolbar_progress"
                     android:layout_height="@dimen/toolbar_progress"
                     android:layout_alignParentEnd="true"
@@ -51,7 +51,7 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/home_pokemon_recycler"
+        android:id="@+id/homePokemonRecycler"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"

@@ -27,7 +27,7 @@
                 android:textSize="@dimen/text_size_secondary"/>
 
             <TextView
-                android:id="@+id/dialog_pokemon_name_text_view"
+                android:id="@+id/dialogPokemonNameTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ellipsize="end"
@@ -40,7 +40,7 @@
         </LinearLayout>
 
         <ImageView
-            android:id="@+id/dialog_pokemon_logo_image_view"
+            android:id="@+id/dialogPokemonLogoImageView"
             android:layout_width="@dimen/pokemon_sprite_size"
             android:layout_height="@dimen/pokemon_sprite_size"
             android:layout_alignParentEnd="true"
@@ -64,7 +64,7 @@
         android:textSize="@dimen/text_size_secondary"/>
 
     <TextView
-        android:id="@+id/dialog_pokemon_type_text_view"
+        android:id="@+id/dialogPokemonTypeTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ellipsize="end"
@@ -89,7 +89,7 @@
         android:textSize="@dimen/text_size_secondary"/>
 
     <TextView
-        android:id="@+id/dialog_pokemon_height_text_view"
+        android:id="@+id/dialogPokemonHeightTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ellipsize="end"
@@ -114,7 +114,7 @@
         android:textSize="@dimen/text_size_secondary"/>
 
     <TextView
-        android:id="@+id/dialog_pokemon_weight_text_view"
+        android:id="@+id/dialogPokemonWeightTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ellipsize="end"
